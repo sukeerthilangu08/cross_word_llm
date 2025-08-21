@@ -1,0 +1,5 @@
+Input: An empty crossword grid template (. for empty cells, # for blocks) and a dictionary/word list.
+Identify Slots: Parse the grid to find all Across and Down word slots with their positions and lengths.
+Fill Words: Use a solver (backtracking + constraints) to place valid words from the dictionary into slots, ensuring intersecting letters match.
+Output: A completely filled crossword grid where every Across/Down entry is a valid dictionary word (or report “no solution”).
+Formats: Provide results as plain text grid, JSON (grid + slots + words), or other renderable formats.
