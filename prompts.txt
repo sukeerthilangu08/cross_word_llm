@@ -1,0 +1,2 @@
+Prompt: create a file with all the prompts i give and add your responces as the answers for the prompts name the file as prompts.txt
+Answer: I will create a file named `prompts.txt` in the current directory and record our conversation there.
